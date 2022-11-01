@@ -1,0 +1,15 @@
+<div class="navtabs-container">
+    <nav mat-tab-nav-bar fxFlex fxLayout="row" fxLayoutAlign="center center">
+    
+      <a mat-tab-link routerLink="/new-ticket" routerLinkActive #new_ticket="routerLinkActive" [active]="new_ticket.isActive">
+        New Ticket
+      </a>
+      <a mat-tab-link routerLink="/ticket-status" routerLinkActive #ticket_status="routerLinkActive" [active]="ticket_status.isActive">
+        Ticket Status
+      </a>
+      <a mat-tab-link routerLink="/view-all-ticket" routerLinkActive #viewall_ticket="routerLinkActive" [active]="viewall_ticket.isActive">
+        View All Status
+      </a>
+     
+    </nav>
+  </div>

@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background: #ffffff !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+table.mat-table tr.mat-row,
+table.mat-table tr.mat-header-row,
+table.mat-table tr.mat-footer-row,
+table.mat-table tr,
+.table-custom tr.mat-row,
+.table-custom tr.mat-header-row,
+.table-custom tr.mat-footer-row,
+.table-custom tr {
+    height: 35px !important;
+}
+//body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
